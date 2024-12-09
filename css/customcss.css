@@ -1,0 +1,78 @@
+/* Style for the main header */
+h1 {
+    color: #005A9C;
+}
+
+/* Body styling */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional, change font if needed */
+}
+
+/* Paragraph styling */
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main content container */
+.main_content {
+    display: flex;                /* Flexbox for centering */
+    flex-direction: column;       /* Aligns items vertically */
+    align-items: center;          /* Centers content horizontally */
+    justify-content: flex-start;  /* Keeps the content at the top */
+    padding: 20px;
+    margin-left: 220px;           /* To leave space for the sidebar */
+    text-align: center;           /* Centers text inside the content */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: aquamarine;
+    width: 200px;
+    height: 100vh;                /* Ensures sidebar takes full height */
+    position: fixed;              /* Fixes the sidebar */
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+/* Sidebar link styling */
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Box model for additional information section */
+.box_model {
+    padding: 15px;
+    background-color: lightblue;
+    border: 5px solid yellow;
+    margin: 20px;
+}
+
+/* Ordered list (ol) styling */
+ol {
+    list-style-position: inside; /* Keeps numbering inside the list */
+    padding: 0;
+    margin: 0;
+    text-align: left;            /* Align text to the left inside the ordered list */
+    width: 100%;                 /* Make the ol take the full width */
+}
+
+/* Unordered list (ul) inside the ordered list */
+ul {
+    margin: 0;                   /* Remove margin from the ul */
+    padding: 0;                  /* Remove padding */
+    text-align: left;            /* Align list items to the left */
+    padding-left: 20px;          /* Indent the unordered list items */
+}
+
+/* Optional: Image centering */
+img {
+    display: block;
+    margin: 20px auto;
+}
